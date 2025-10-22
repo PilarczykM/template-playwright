@@ -8,6 +8,7 @@ test("has title", async ({ page }) => {
 });
 
 test("get started link", async ({ page }) => {
+	console.log("URL: ", process.env.URL);
 	await page.goto("https://playwright.dev/");
 
 	// Click the get started link.
