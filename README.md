@@ -1,1 +1,1 @@
-# automationexercise-playwright
+# template-playwright
