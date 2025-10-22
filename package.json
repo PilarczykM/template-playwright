@@ -18,7 +18,12 @@
 		"type": "git",
 		"url": "git+https://github.com/PilarczykM/template-playwright.git"
 	},
-	"scripts": {},
+	"scripts": {
+		"check": "npx @biomejs/biome check --write",
+		"format": "npx @biomejs/biome format --write",
+		"lint": "npx @biomejs/biome lint --write",
+		"test": "npx playwright test"
+	},
 	"type": "commonjs",
 	"version": "1.0.0"
 }
