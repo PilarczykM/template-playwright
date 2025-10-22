@@ -1,23 +1,23 @@
 {
-  "author": "MP",
-  "bugs": {
-    "url": "https://github.com/PilarczykM/template-playwright/issues"
-  },
-  "description": "",
-  "devDependencies": {
-    "@biomejs/biome": "2.2.7",
-    "@playwright/test": "^1.56.1",
-    "@types/node": "^24.9.1"
-  },
-  "homepage": "https://github.com/PilarczykM/template-playwright#readme",
-  "keywords": [],
-  "license": "ISC",
-  "name": "template-playwright",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PilarczykM/template-playwright.git"
-  },
-  "scripts": {},
-  "type": "commonjs",
-  "version": "1.0.0"
+	"author": "MP",
+	"bugs": {
+		"url": "https://github.com/PilarczykM/template-playwright/issues"
+	},
+	"description": "",
+	"devDependencies": {
+		"@biomejs/biome": "2.2.7",
+		"@playwright/test": "^1.56.1",
+		"@types/node": "^24.9.1"
+	},
+	"homepage": "https://github.com/PilarczykM/template-playwright#readme",
+	"keywords": [],
+	"license": "ISC",
+	"name": "template-playwright",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PilarczykM/template-playwright.git"
+	},
+	"scripts": {},
+	"type": "commonjs",
+	"version": "1.0.0"
 }

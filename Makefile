@@ -1,8 +1,24 @@
+.PHONY: help format lint check test
+
+help:
+	@echo "Available commands:"
+	@echo "  format - Format all files using Biome"
+	@echo "  lint   - Lint files and apply safe fixes using Biome"
+	@echo "  check  - Format, lint, and organize imports of all files using Biome"
+	@echo "  test   - Run Playwright tests"
+
 # Format all files
-npx @biomejs/biome format --write
+format:
+	npx @biomejs/biome format --write
 
 # Lint files and apply safe fixes to all files
-npx @biomejs/biome lint --write
+lint:
+	npx @biomejs/biome lint --write
 
 # Format, lint, and organize imports of all files
-npx @biomejs/biome check --write
+check:
+	npx @biomejs/biome check --write
+
+# Run Playwright tests
+test:
+	npx playwright test
