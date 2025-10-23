@@ -22,3 +22,6 @@ check:
 # Run Playwright tests
 test:
 	npx playwright test
+
+report:
+	npx playwright show-report --port=9323 --host=0.0.0.0
