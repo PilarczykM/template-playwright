@@ -13,6 +13,6 @@
 		}
 	},
 	"forwardPorts": [9323],
-	"name": "Playwright E2E DevContainer",
+	"name": "template-playwright",
 	"remoteUser": "root"
 }
