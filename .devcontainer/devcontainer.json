@@ -14,5 +14,5 @@
 	},
 	"forwardPorts": [9323],
 	"name": "template-playwright",
-	"remoteUser": "root"
+	"remoteUser": "pwuser"
 }
