@@ -16,13 +16,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /workspace
 
 COPY package*.json ./
-
 RUN npm ci
-
-COPY . .
 
 RUN npx playwright install chromium --with-deps
 
-USER root
+COPY . .
+
 # Playwright port
 EXPOSE 9323
