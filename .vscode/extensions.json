@@ -1,7 +1,3 @@
 {
-	"recommendations": [
-		"ms-playwright.playwright",
-		"biomejs.biome",
-		"streetsidesoftware.code-spell-checker"
-	]
+	"recommendations": ["ms-playwright.playwright", "biomejs.biome", "streetsidesoftware.code-spell-checker"]
 }
