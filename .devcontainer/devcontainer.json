@@ -1,0 +1,17 @@
+{
+	"build": {
+		"context": "..",
+		"dockerfile": "Dockerfile"
+	},
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"biomejs.biome",
+			"ms-playwright.playwright",
+			"streetsidesoftware.code-spell-checker"
+		]
+	}
+},
+	"name": "Playwright E2E DevContainer",
+	"postCreateCommand": "npx playwright install --with-deps"
+}
